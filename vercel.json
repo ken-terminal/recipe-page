@@ -1,17 +1,9 @@
 {
-  "headers": [
+  "redirects": [
     {
-      "source": "/(.*\\.pdf)",
-      "headers": [
-        {
-          "key": "Content-Type",
-          "value": "application/pdf"
-        },
-        {
-          "key": "Content-Disposition",
-          "value": "inline"
-        }
-      ]
+      "source": "/",
+      "destination": "https://catalog.qoovel.com/line/",
+      "permanent": true
     }
   ]
 }
